@@ -1,0 +1,160 @@
+body{
+    box-sizing: border-box;
+    height: 1080px;
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Times New Roman', serif;
+}
+
+/* NAV CSS */
+nav{
+    letter-spacing: 3px;
+    /* word-spacing: 24px; */
+    font-size: 18px;
+    z-index: 1;
+    color: #000000;
+}
+
+@media (max-width: 425px) {
+    nav {
+        background: rgba(255, 255, 255, 0.514);
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    nav {
+        background: rgba(255, 255, 255, 0.514);
+        font-size: 15px;
+    }
+    
+}
+
+.navbar-brand {
+    background: rgba(158, 158, 158, 0.514);
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media (max-width: 425px) {
+    .navbar-brand {
+        font-size: 12px;
+        font-weight: 200px;
+        padding-top: 0;
+        background: #818181;
+    }
+    
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 15px;
+        font-weight: 200px;
+        padding-top: 0;
+        background: #818181;
+    }
+    
+}
+
+
+.navbar-nav a{
+    background: rgba(179, 179, 179, 0.651);
+}
+
+@media (max-width: 425px) {
+    .navbar-toggler-icon {
+        background: #818181;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        background: #818181;
+    }
+    
+}
+
+
+/* STUDIO CSS */
+.studio-header h1 {
+    font-size: 25px;
+    color: #757575;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-weight: 50;
+}
+
+.studio-list {
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+
+    
+}
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding: 20px;
+        font-size: 20px;
+        opacity: 0.6;
+        text-decoration: none;
+    }
+
+    a:link {text-decoration: none;}
+    a:hover {opacity: 0.8;}
+
+.title-container {
+    background: #833636;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER CSS */
+.footer-container {
+    max-width: 1920px;
+    padding-top: 10px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-media li {
+    margin: 10px;
+}

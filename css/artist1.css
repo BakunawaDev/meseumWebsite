@@ -1,0 +1,421 @@
+body, html{
+    box-sizing: border-box;
+    height: auto;
+    max-width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+/* NAV CSS */
+nav{
+    letter-spacing: 3px;
+    /* word-spacing: 24px; */
+    font-size: 18px;
+    z-index: 1;
+    color: #000000;
+}
+
+@media (max-width: 425px) {
+    nav {
+        background: rgba(255, 255, 255, 0.514);
+        font-size: 15px;
+    }
+    
+}
+
+.navbar-brand {
+    background: rgba(158, 158, 158, 0.514);
+    padding: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+@media (max-width: 425px) {
+    .navbar-brand {
+        font-size: 12px;
+        font-weight: 200px;
+        padding-top: 0;
+        background: #818181;
+    }
+    
+}
+
+.navbar-nav a{
+    background: rgba(179, 179, 179, 0.651);
+}
+
+@media (max-width: 425px) {
+    .navbar-toggler-icon {
+        background: #818181;
+    }
+    
+}
+
+/* Hero CSS */
+
+.hero-image{
+    background-image: url("/images/gallery/gallery.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 425px){
+    .hero-image {
+        width: 425px;
+        height: 300px;
+    }
+}
+
+    .hero-text{
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* border: #4e3d3d6b; */
+    }
+
+    @media (max-width: 425px){
+        .hero-text {
+            top: 110px;
+            height: 300px;
+        }
+    }
+    .hero-text h1{
+        font-size: 40px;
+        font-weight: 900;
+        color: #ffffff;
+        letter-spacing: 60px;
+        text-transform: uppercase;
+        padding-top: 50px;
+    }
+
+    @media (max-width: 425px){
+        .hero-text h1 {
+            font-size: 25px;
+            font-weight: 1px;
+            margin-top: 190px;
+        }
+    }
+    .hero-text p{
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+    }
+
+    @media (max-width: 425px){
+        .hero-text p {
+            margin-top: 5px;
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+    }
+
+    .btn:hover{
+        opacity: 0.8;
+    }
+
+/* FIRST CONTENT CSS */
+.fContent-container {
+    max-width: auto;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 10px; */
+    grid-auto-rows: 500px;
+    background: #dadada;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+@media (max-width: 425px){
+    .fContent-container {
+        padding-top: 20px;
+        grid-template-columns: 425px;
+        /* grid-auto-rows: auto; */
+        width: 425px;
+        background: white;
+        padding-bottom: 2px;
+    }
+}
+
+    .fContentImage {
+        background-image: url("/images/gallery/Gallery_interior.jpg");
+        background-size: auto 500px;
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+    }
+
+    @media (max-width: 425px){
+        .fContentImage {
+            display: none;
+        }
+    }
+
+    .fContent1 {
+        color: #462e25;
+        font-size: 35px;
+        text-align: center;
+        padding-top: 200px;
+        padding-left: 80px;
+        
+    }
+
+    @media (max-width: 425px){
+        .fContent1 {
+            font-size: 40px;
+            padding-top: 50px;
+            padding-right: 100px;
+        }
+    }
+
+
+
+/* SECOND CONTENT CSS */
+.sContent-container {
+    background-image: url("/images/gallery/GodSculpture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* overflow: hidden; */
+    width: auto;
+    height: 70vh;
+}
+
+@media (max-width: 425px){
+    .sContent-container {
+        display: none;
+    }
+}
+
+/* THIRD CONTENT CSS */
+
+.tContent-container {
+    max-width: 1920px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    /* gap: 10px; */
+    grid-auto-rows: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 425px){
+    .tContent-container {
+        padding-top: 20px;
+        grid-template-columns: 425px;
+        /* grid-auto-rows: auto; */
+        width: 425px;
+        background: white;
+        padding-bottom: 2px;
+    }
+}
+
+    .tContentImage {
+        background-image: url("/images/gallery/artist.jpg");
+        background-size: 650px 500px;
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+        margin-left: 150px;
+        margin-right: 90px;
+        position: relative;
+    }
+
+    @media (max-width: 425px){
+        .tContentImage {
+            width: 425px;
+            height: auto;
+            margin: 0;
+        }
+    }
+
+    .tContent {
+        background: #ffffff;
+        text-align: left;
+        padding-top: 80px;
+        padding-right: 250px;
+        padding-left: 100px;
+    }
+
+    @media (max-width: 425px){
+        .tContent {
+            text-align: center;
+            padding-top: 100px;
+            padding-right: 60px;
+            padding-left: 10px;
+            height: auto;
+            width: auto;
+            justify-content: center;
+            padding-bottom: 0;
+        }
+    }
+
+    .tContent p {
+        font-size: 18px;
+        color: #724a3c;
+    }
+
+    .tContent h1 {
+        font-size: 50px;
+        font-weight: 400;
+        color: #462e25;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .tContent p span {
+        font-size: 18px;
+        color: #ac664c;
+        font-family: Verdana, sans-serif;
+    }
+
+/* MAIN CONTENT CSS */
+
+.title-container {
+    max-width: auto ;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: #e7e7e7;
+}
+
+    @media (max-width: 425px){
+        .title-container {
+            margin-top: 0;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+
+    .title {
+        font-size: 20px;
+        color: #462e25;
+    }
+
+    .title-caption h1 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-weight: 600;
+        color: #180f0c;
+    }
+    .title-caption h4 {
+        font-size: 14px;
+        color: #180f0c;
+        font-family: Verdana, sans-serif;
+    }
+
+.content-container {
+    max-width: auto;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background: #e7e7e7; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        /* gap: 10px; */
+    grid-auto-rows: 600px;
+}
+
+@media (max-width: 425px){
+    .content-container {
+        padding-top: 100px;
+        grid-template-columns: auto;
+        gap: 20px;
+        grid-auto-rows: auto;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 425px){
+    .content-container img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+    .imageA img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: left;
+        padding-left: 50px;
+    }
+
+    @media (max-width: 425px){
+        .imageA img {
+            padding-right: 50px;
+        }
+    }
+
+    .contentA {
+        text-align: left;
+        padding-left: 200px;
+        padding-right: 150px;
+        padding-top: 200px;
+        opacity: 0.9;
+    }
+
+    .contentA h2, h3 {
+        font-style: italic;
+        opacity: 0.8;
+    }
+
+    @media (max-width: 425px){
+        .contentA, .contentB {
+            display: none;
+        }
+    }
+
+    .imageB img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        /* padding-top: 60px;
+        padding-right: 100px; 
+        padding-left: 50px; */
+    }
+    
+    .contentB {
+        text-align: left;
+        padding-left: 120px;
+        padding-right: 200px;
+        padding-top: 150px;
+        opacity: 0.9;
+    }
+
+    .contentB h2, h3 {
+        font-style: italic;
+        opacity: 0.8;
+    }
+
+
+
+
+/* FOOTER CSS */
+.footer-container {
+    max-width: 1920px;
+    padding-top: 10px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-media li {
+    margin: 10px;
+}
