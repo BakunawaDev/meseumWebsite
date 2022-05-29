@@ -10,13 +10,20 @@ body{
 
 /* NAV CSS */
 nav{
-    letter-spacing: 3px;
-    /* word-spacing: 24px; */
-    font-size: 18px;
     z-index: 1;
     color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 650;
 }
-
+@media (max-width: 768px) {
+    nav {
+        background: rgba(255, 255, 255, 0.514);
+        font-size: 15px;
+        
+    }
+    
+}
 @media (max-width: 425px) {
     nav {
         background: rgba(255, 255, 255, 0.514);
@@ -25,21 +32,20 @@ nav{
     
 }
 
-@media (max-width: 768px) {
-    nav {
-        background: rgba(255, 255, 255, 0.514);
-        font-size: 15px;
-    }
-    
-}
-
 .navbar-brand {
-    background: rgba(158, 158, 158, 0.514);
-    padding: 10px;
+    background: rgba(89, 89, 89, 0.514);
+    padding: 18px;
     font-weight: 500;
-    font-size: 18px;
 }
 
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 15px;
+        font-weight: 200px;
+        padding-top: 0;
+        background: #818181;
+    }
+}
 @media (max-width: 425px) {
     .navbar-brand {
         font-size: 12px;
@@ -49,34 +55,34 @@ nav{
     }
     
 }
-@media (max-width: 768px) {
-    .navbar-brand {
-        font-size: 15px;
-        font-weight: 200px;
-        padding-top: 0;
-        background: #818181;
-    }
+
+.navbar-brand h4 {
+    color: #000000;
+}
+.navbar-brand span {
+    color: #ffffff;
+}
+
+
+.nav-item {
+    background: rgba(89, 89, 89, 0.514);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+
+
+.navbar-toggler-icon{
+    background: rgba(89, 89, 89, 0.514);
+    padding: 18px;
     
 }
-
-
-.navbar-nav a{
-    background: rgba(179, 179, 179, 0.651);
-}
-
 @media (max-width: 425px) {
     .navbar-toggler-icon {
         background: #818181;
     }
     
-}
-
-@media (max-width: 768px) {
-    .navbar-toggler-icon {
-        background: #818181;
-    }
-    
-}
+} 
 
 /* ARTIST CSS */
 
@@ -124,19 +130,6 @@ a:link {text-decoration: none;}
 a:hover {opacity: 0.8;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER CSS */
 .footer-container {
     max-width: 1920px;
@@ -151,5 +144,5 @@ a:hover {opacity: 0.8;}
 }
 
 .social-media li {
-    margin: 10px;
+    margin: 5px;
 }

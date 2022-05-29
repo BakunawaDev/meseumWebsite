@@ -20,7 +20,6 @@ nav{
     nav {
         background: rgba(255, 255, 255, 0.514);
         font-size: 15px;
-        
     }
     
 }
@@ -63,13 +62,11 @@ nav{
     color: #ffffff;
 }
 
-
 .nav-item {
     background: rgba(89, 89, 89, 0.514);
     text-transform: uppercase;
     letter-spacing: 8px;
 }
-
 
 
 .navbar-toggler-icon{
@@ -85,8 +82,8 @@ nav{
 } 
 
 /* HERO CSS */
-.hero-image{
-    background-image: url("/images/hero1.jpg");
+.hero{
+    background-image: url("/images/galhero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,82 +106,49 @@ nav{
     }
 }
 
-
-a:hover {
-    opacity: 0.9;
-}
-
-
-
-/* TITLE */
+/* TITLE CSS */
 .title-container {
-    max-width: auto ;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    background: #ffffff;
-    font-family: Verdana, sans-serif;
+    /* background: #818181; */
+    margin-top: 150px;
+    margin-bottom: 150px;
+    line-height: 2.5;
+    color: #818181;
+    font-size: 18px;
+
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .title-container {
-        padding-top: 70px;
-        padding-bottom: 100px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        line-height: 2;
+        font-size: 15px;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 425px) {
     .title-container {
-        padding-top: 50px;
-        padding-bottom: 90px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        font-size: 1px;
     }
 }
 
-    .title {
-        font-size: 25px;
-        color: #505050;
-        font-weight: 600;
-        letter-spacing: 3px;
-        word-spacing: 5px;
-        text-shadow: #000000;
-    }
 
-    .title-caption h4 {
-        font-size: 20px;
-        color: #606060;
-        font-family: Verdana, sans-serif;
-    }
-
-
-
-/* SECOND CONTAINER  */
-.sContent-container {
-    background-image: url("/images/taguig.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    width: auto;
-    height: 60vh;
+/* QOUTE CSS */
+figure {
+    padding-top: 100px;
 }
 
-@media (max-width: 768px){
-    .sContent-container {
-        width: 768px;
-        height: 200px;
-    }
-}
-@media (max-width: 425px){
-    .sContent-container {
-        width: 425px;
-        height: 130px;
-    }
+
+.blockquote p {
+    font-size: 30px;
+    font-style: italic;
 }
 
-/* GRID CSS */
+
+/* DIV CONTAINER */
 .content-container {
     max-width: auto;
-    padding-top: 150px;
     padding-bottom: 500px;
     font-family: 'Times New Roman', Times, serif;
     /* background: #e7e7e7; */
@@ -196,9 +160,9 @@ a:hover {
 
 @media (max-width: 768px){
     .content-container {
-        max-width: 768px;
-        padding-top: 120px;
-        grid-template-columns: auto;
+        max-width: auto;
+        padding-top: 100px;
+        grid-template-columns: 1fr;
         /* gap: 25px; */
         grid-auto-rows: auto;
         padding-bottom: 100px;
@@ -207,7 +171,7 @@ a:hover {
 @media (max-width: 425px){
     .content-container {
         max-width: auto;
-        padding-top: 100px;
+        padding-top: 50px;
         grid-template-columns: 1fr;
         gap: 20px;
         grid-auto-rows: auto;
@@ -221,25 +185,24 @@ a:hover {
         object-fit: contain;
         box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.2), 
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     }
     
     @media (max-width: 768px){
         .image img {
-            width: 740px;
-            height: 250;
-            right: 10px;
+            width: 100%;
+            height: auto;
+            /* right: 10px; */
         }
     }    
     @media (max-width: 425px){
         .image img {
-            width: 425px;
-            height: 250;
+            width: 100%;
+            height: auto;
         }
     }
 
     .content {
-        text-align: left;
+        text-align: center;
         letter-spacing: 3px;
         padding-top: 25px;
         
@@ -261,8 +224,6 @@ a:hover {
     }
 
 
-
-
 /* FOOTER CSS */
 .footer-container {
     max-width: 1920px;
@@ -277,5 +238,5 @@ a:hover {
 }
 
 .social-media li {
-    margin: 10px;
+    margin: 20px;
 }
