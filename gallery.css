@@ -83,7 +83,7 @@ nav{
 
 /* HERO CSS */
 .hero{
-    background-image: url("/images/galhero.jpg");
+    background-image: url("galhero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

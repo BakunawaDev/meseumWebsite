@@ -86,7 +86,7 @@ nav{
 
 /* HERO CSS */
 .hero-image{
-    background-image: url("/images/hero1.jpg");
+    background-image: url("hero1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +158,7 @@ a:hover {
 
 /* SECOND CONTAINER  */
 .sContent-container {
-    background-image: url("/images/taguig.jpg");
+    background-image: url("taguig.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

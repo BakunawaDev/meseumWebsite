@@ -84,7 +84,7 @@ nav{
 /* Hero CSS */
 
 .hero-image{
-    background-image: url("/images/gallery/gallery.jpg");
+    background-image: url("vgal1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +208,7 @@ nav{
 }
 
     .fContentImage {
-        background-image: url("/images/gallery/Gallery_interior.jpg");
+        background-image: url("vgal2.jpg");
         background-size: auto 500px;
         background-repeat: no-repeat;
         height: auto;
@@ -255,7 +255,7 @@ nav{
 
 /* SECOND CONTENT CSS */
 .sContent-container {
-    background-image: url("/images/gallery/GodSculpture.jpg");
+    background-image: url("god.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,7 +311,7 @@ nav{
 }
 
     .tContentImage {
-        background-image: url("/images/gallery/artist.jpg");
+        background-image: url("artist.jpg");
         background-size: 650px 500px;
         background-repeat: no-repeat;
         height: auto;
